@@ -1,0 +1,27 @@
+# sample.yaml
+
+app:
+  name: my-web-app
+  version: 1.0.0
+  environment: production
+
+server:
+  host: 0.0.0.0
+  port: 8080
+
+database:
+  type: mysql
+  host: db.example.com
+  port: 3306
+  username: admin
+  password: secret123
+  name: myapp_db
+
+logging:
+  level: INFO
+  file: /var/log/myapp/app.log
+
+features:
+  - authentication
+  - payments
+  - notifications
